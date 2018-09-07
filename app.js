@@ -5,7 +5,7 @@ var $cityInput = document.querySelector("#city");
 var $stateInput = document.querySelector("#state");
 var $countryInput = document.querySelector("#country");
 var $shapeInput = document.querySelector("#shape");
-var $searchBtn = document.querySelector("#search");
+var $searchBtn = document.querySelector("#filter-btn");
 var $searchBtn1 = document.querySelector("#search1");
 var $searchBtn2 = document.querySelector("#search2");
 var $searchBtn3 = document.querySelector("#search3");
@@ -14,10 +14,10 @@ var $searchBtn4 = document.querySelector("#search4");
 
 // Add an event listener to the searchButton, call handleSearchButtonClick when clicked
 $searchBtn.addEventListener("click", handleSearchButtonClick);
-$searchBtn1.addEventListener("click", handleSearchButtonClick1);
-$searchBtn2.addEventListener("click", handleSearchButtonClick2);
-$searchBtn3.addEventListener("click", handleSearchButtonClick3);
-$searchBtn4.addEventListener("click", handleSearchButtonClick4);
+//$searchBtn1.addEventListener("click", handleSearchButtonClick1);
+//$searchBtn2.addEventListener("click", handleSearchButtonClick2);
+//$searchBtn3.addEventListener("click", handleSearchButtonClick3);
+//$searchBtn4.addEventListener("click", handleSearchButtonClick4);
 
 
 // Set filteredUFO to dataSet initially
